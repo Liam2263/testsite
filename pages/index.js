@@ -10,7 +10,7 @@ export default function Home(props) {
               Aurora is a Rocket League bot that specializes in 1v1 matches and has achieved a Diamond 1 rank. Although capable of playing 2v2 and 3v3 matches, it was primarily trained in 1v1 scenarios. Aurora boasts impressive wall play and flicking skills, making it an excellent training partner for anyone ranked Diamond 1 or lower. Whether you're looking to improve your gameplay or simply want a challenging opponent, Aurora is sure to deliver an engaging and rewarding experience.
             </p>
             <p> 
-              <a href="Aurora.zip" download>Aurora Latest</a>
+              <a href="../bots/Aurora.zip" download>Aurora Latest</a>
             </p>
             <subheader className={styles.subheading}>Bubbly</subheader>
             <p>
