@@ -17,7 +17,7 @@ export default function Home(props) {
               Bubbly is a Rocket League bot that specializes in 1v1 matches and has achieved a Gold 3 rank. Although capable of playing 2v2 and 3v3 matches, it was primarily trained in 1v1 scenarios. Bubbly has a few peculiar traits, such as its tendency to flip back to the net when retreating. As my first machine learning bot, Bubbly stands out among the rest, with this unusual behavior setting it apart from the others. Bubbly everywhere else shows good gameplay which makes it indeed a Gold rank.
             </p>
             <p> 
-              <a href="../bots/Bubbly.zip" download>Bubbly Latest</a>
+              https://www.mediafire.com/file/zzz16z6vbh4ndaq/AuroraV7098.zip/file
             </p>
         </>
     )
