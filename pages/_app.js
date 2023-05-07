@@ -11,20 +11,18 @@ export default function App({Component, pageProps}) {
         <>
             <div>
                 <nav className="flex justify-between items-center flex-wrap p-6 bg-black">
-                    <div>
-                        <ul className="flex justify-between space-x-9 text-white">
-                            <li>
-                                <h1 className="font-semibold text-3xl">Liam's RL Bot Hub</h1>
+                    <ul className="flex justify-between space-x-9 text-white">
+                        <li>
+                            <h1 className="font-semibold text-3xl">Liam's RL Bot Hub</h1>
+                        </li>
+                        {links.map((link) => (
+                            <li key={link.href}>
+                                <Link className="block lg:inline-block hover:text-blue-500 font-sans text-xl" href={link.href}>
+                                    {link.label}
+                                </Link>
                             </li>
-                            {links.map((link) => (
-                                <li key={link.href}>
-                                    <Link className="block lg:inline-block hover:text-blue-500 font-sans text-xl" href={link.href}>
-                                        {link.label}
-                                    </Link>
-                                </li>
-                            ))}
-                        </ul>
-                    </div>
+                        ))}
+                    </ul>
                 </nav>
             </div>
             <Component {...pageProps} />
